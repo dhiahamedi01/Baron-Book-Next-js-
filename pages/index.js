@@ -1,15 +1,18 @@
-import Nav from "@/Components/Header/Nav"
-import Navi from "@/Components/Header/Navi"
-import Slide from "@/Components/Image_slider/Slide"
-export default function Home() {
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
+import Hero from '../Components/Hero';
+import BookBest from '../Components/Book/BookBest';
+import BookB from '../Components/Book/BookB';
+ const Home=()=>{
   return (
-    <>
-    <div>
-      <Navi></Navi>
-      <Nav></Nav>
-      <Slide></Slide>
-      
-    </div>
-    </>
-  )
+   <>
+   <Header></Header>
+   <Hero></Hero>
+   <BookBest></BookBest><br></br>
+   <BookB></BookB><br></br><br></br>
+   <Footer></Footer>
+   </>
+  );
 }
+
+export default Home;

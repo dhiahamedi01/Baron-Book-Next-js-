@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+.navbar {
+    background-color: #3ea87f;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    opacity: 0.8;
+  }
+  
+  /* Center navbar items */
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  .navItems li a{
+    text-decoration: none;
+  }
+  .navLink{
+    text-decoration: none !important;
+    outline: none;
+    color: #ffffff;
+    list-style: none;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 570;
+  } 
+  .navLink:hover{
+    color:#ffa137;
+    transition: 0.5s;
+  }
+  .title{
+    text-decoration: none;
+  }
+  .logo{
+    text-decoration: none !important;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 28px;
+    font-weight: 650;
+  }
+  .btntext{
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 570;
+  }
+  .logo:hover{
+    color:#fff;
+    transition: 0.5s;
+  }
+  .button{
+    background-color: #ffa137;
+    color:#fff;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 570;
+  }
+  .button:hover{
+    background-color: #ff9318;
+    color:#fff;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 570;
+  }
+  /* Media query for responsive navigation */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    
+    .navbar-nav .nav-link {
+      padding: 0.5rem 0;
+    }
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    height: 48%;
+    justify-content: space-between;
+    display: block;
+    border-radius: 1rem;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+  }
+  .block,.block3{
+    width: 100%;
+    height: 51px;
+    border-bottom: solid 0.7px;
+    border-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+  .block:hover{
+    background-color: #e6e6e6;
+  }
+  .block2{
+    width: 100%;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+  .block2:hover{
+    background-color: #e6e6e6;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  .block3:hover{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #e6e6e6;
+  }
+  .text{
+    font-family: 'Cairo', sans-serif;
+    color: #009a5f;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .text2{
+    font-family: 'Cairo', sans-serif;
+    color: #009a5f;
+    font-size: 17px;
+    text-decoration: none;
+    margin-right: 30%;
+  }
+
+  .modalsearch{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    width: 550px;
+    height: 37%;
+    justify-content: space-between;
+    display: block;
+    border-radius: 1rem;
+  }
+  .head{
+    width: 100%;
+    height: 60px;
+    padding: 15px;
+    position: relative;
+  }
+  .texts{
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .close{
+    margin-right: 75%;
+    color: #c6c6c6;
+    font-size: 25px;
+  }
+  .close1{
+    margin-right: 70%;
+    color: #c6c6c6;
+    font-size: 25px;
+  }
+  .close1:hover{
+    color: #838383;
+  }
+  .close:hover{
+    color: #838383;
+  }
+  .body{
+    padding: 15px;
+    position: relative;
+    margin-top: 20px;
+  }
+  .input{
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    outline: none;
+    padding: 10px;
+    font-family: 'Cairo', sans-serif;
+    border-radius: 0.3rem;
+    border: solid 1px;
+    border-color: #d2d2d2;
+  }
+ .btn{
+  background-color:#3ea87f;
+  color: #fff;
+  border: none;
+  width: 100%;
+  height: 50px;
+  border-radius: 0.5rem;
+  margin-top: 25px;
+  font-family: 'Cairo', sans-serif;
+ }
+ .btn:hover{
+  background-color: #279b6f;
+ }

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+.container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 15px;
+    background-color: #f2f2f2;
+
+}
+.sections{
+    width: 22%;
+    height: 500px;
+    margin-top: 195px;
+    padding: 10px;
+    border: solid 1px ;
+    border-color: rgb(171, 171, 171);
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.span{
+    font-family: 'Cairo', sans-serif;
+    text-align: left; 
+    font-size: 23px;
+    font-weight: 550;
+}
+.span1{
+    font-family: 'Cairo', sans-serif;
+    text-align: left; 
+    font-size: 16px;
+    font-weight: 500;
+}
+.span1:hover{
+    color: #3ea87f;
+}
+.search{
+    font-family: 'Cairo', sans-serif;
+    text-align: right; 
+    font-size: 23px;
+    font-weight: 550;
+    margin-right: 50%;
+}
+.search1{
+    font-family: 'Cairo', sans-serif;
+    text-align: right; 
+    font-size: 20px;
+    color: #3ea87f;
+    margin-right: 40%;
+}
+.item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.Book{
+    width: 75%;
+    display: block;
+    position: relative;
+    
+}
+.liste{
+    padding-right: 15px;
+    padding-top: 50px;
+}
+.filter{
+    width: 70%;
+    height: 100px;
+    margin-right: 10%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px;
+    border-color: rgb(70, 70, 70);
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.filter2{
+    width: 93%;
+    margin-right: 3%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px;
+    border-color: rgb(70, 70, 70);
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.b1{
+width: 33%;
+height: 100%;
+display: block;
+text-decoration: none;
+}
+.p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    margin-top: 3px;
+    color: black;
+}
+
+.p:hover{
+    color: #3ea87f;
+}
+.b2{
+    width: 33%;
+    height: 100%;
+    display: block;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: rgb(70, 70, 70);
+    text-decoration: none;
+
+}
+.b5,.b6{
+    width: 50%;
+    height: 100%;
+    display: block;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: rgb(70, 70, 70);
+    text-decoration: none;
+}
+.b3{
+    width: 33%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+
+}
+.title{
+    width: 250px;
+    margin-right: 25px;
+ 
+}
+.h3{
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+.h5{
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 7%;
+    position: relative;
+}
+.cardbd{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin: 2px;
+}
+.hr{
+    height: 20px;
+}
+.card{
+    width: 200px;
+}

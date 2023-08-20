@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+.search{
+    background: url(/img/book.jpg);
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center center;
+    font-family: 'Cairo', sans-serif;
+  }
+  .search input{
+  width: 40%;
+  height: 40px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: 'Cairo', sans-serif;
+  
+  }
+  .search .book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    object-position: center center;
+    font-family: 'Cairo', sans-serif;
+  }
+  .search p{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
+  }
+  .p{
+    font-family: 'Cairo', sans-serif;
+  }
+  .button{
+    background: #3ea87f;
+    height: 40px;
+    width: 80px;
+    border-radius: 0rem;
+    float: right;
+    border: solid;
+    border-color: #3ea87f;
+    color: #fff;
+    outline: none!important; 
+    font-family: 'Cairo', sans-serif;
+  }
+  .button:hover{
+    background-color:#329b73;
+    border-color: #329b73;
+  }
+  .parag{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+    line-height: 30px;
+    font-family: 'Cairo', sans-serif;
+  }
+  .hr{
+    border: none;
+    border-top: 3px dotted #000000; 
+    width: 85%; 
+    height: 5px; 
+    margin: 20px auto; 
+  }
+  @media (max-width:1100px) {
+    .parag{
+      margin: 10px;
+    }
+  }
+  @media (max-width:950px){
+    .parag{
+      margin: 5px;
+    }
+  }
+  @media (max-width:560px){
+    .parag{
+      margin: 2px;
+    }
+  }
